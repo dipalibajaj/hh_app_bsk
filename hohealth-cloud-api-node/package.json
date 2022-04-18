@@ -1,0 +1,52 @@
+{
+  "name": "hohealth-cloud-api-node",
+  "version": "0.1.0",
+  "description": "HoHealth cloud API microservice for serving website and other user facing clients",
+  "scripts": {
+    "build": "tsc --build",
+    "heroku-postbuild": "npm run build",
+    "start": "node dist/app.js",
+    "dev": "nodemon -r dotenv/config src/app.ts",
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://xccessor@dev.azure.com/xccessor/Ho%20Health/_git/hohealth-cloud-api-node"
+  },
+  "keywords": [
+    "API",
+    "EXPRESS"
+  ],
+  "author": "Bharath Kumar S",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@google-cloud/logging-winston": "^4.2.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/morgan": "^1.9.3",
+    "axios": "^0.23.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^10.0.0",
+    "helmet": "^4.6.0",
+    "hohealth-db-node": "git+https://xccessor@dev.azure.com/xccessor/Ho%20Health/_git/hohealth-db-node",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.0.11",
+    "morgan": "^1.10.0",
+    "winston": "^3.7.2",
+    "winston-daily-rotate-file": "^4.6.1",
+    "node-common-utils": "github:BharathKSunil/node-common-utils",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/method-override": "^0.0.32",
+    "@types/node": "^16.11.1",
+    "@types/validator": "^13.7.2",
+    "nodemon": "^2.0.13",
+    "prettier": "^2.4.1",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  }
+}
