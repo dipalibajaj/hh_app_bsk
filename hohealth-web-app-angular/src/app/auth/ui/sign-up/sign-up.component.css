@@ -1,0 +1,92 @@
+#row{
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from 209.59deg at 69.66% 55.52%, #F1C6DD 0deg, #C1A4E8 50.06deg, #B8E2FB 85.94deg, #FFFBF3 134.97deg, #F9DCDD 172.05deg, #E1C1E5 200.75deg, #BDAFE3 224.67deg, #EDC7C7 259.36deg, #F5E7E7 298.82deg, #F2E7E7 328.72deg, #DDC1E1 360deg);
+}
+
+nz-header {
+    padding: 0;
+    width: 100%;
+    z-index: 2;
+}
+  
+.app-header {
+    position: relative;
+    height: 64px;
+    padding: 0;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,21,41,.08);
+}
+
+#headerHeading{
+    font-weight: bolder;
+    display: inline-block;
+}
+
+nz-card{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 251px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 670px) {
+    nz-card{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+#cardPara1{
+    color: #1D1D1D;
+    letter-spacing: -0.02em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+#cardPara2{
+    color: #777777;
+    letter-spacing: -0.011em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+button:hover{
+    color: #777777;
+}
+
+button{
+    font-style: normal;
+    font-weight: 600;
+    color: #777777;
+    font-size: 15px;
+    line-height: 35px;
+    padding-left: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+#cardPara3{
+    font-style: normal;
+    padding-top: 1.5rem;
+    padding-left: 4rem;
+    text-align: center;
+    color: #777777;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.011em;
+    display: inline-block;
+}
+
+#cardSignUp{
+    color: #777777;
+    font-weight: 600;
+    font-style: normal;
+}

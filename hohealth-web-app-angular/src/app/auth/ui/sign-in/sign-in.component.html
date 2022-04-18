@@ -1,0 +1,17 @@
+<nz-layout id="row">
+    <nz-header>
+        <div class="app-header" align="center">
+            <h3 id="headerHeading">Ho Healthcare</h3>
+            <!-- <span>BETA</span> -->
+        </div>
+    </nz-header>
+
+    <div nz-row id="row">
+        <nz-card>
+            <p id="cardPara1">Login to your account</p>
+            <p id="cardPara2">By continuing, you agree to our terms of service and privacy policy.</p>
+            <button nz-button nzType="default" nzBlock (click)="signIn()"><img style="padding-right: 0.5rem;" src="assets/googleIcon.png">Sign in with Google</button>
+            <!-- <p id="cardPara3">Don’t have an account?</p><a id="cardSignUp" routerLink="login" (click)="signUp()"> Sign up</a> -->
+          </nz-card>
+    </div>
+</nz-layout>

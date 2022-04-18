@@ -1,0 +1,30 @@
+#number{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 8rem;
+    color: #1D1D1D;;
+}
+
+#forbidden{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #1D1D1D;;
+}
+
+.message{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1D1D1D;;
+}
+
+.container{
+    margin-bottom: 1rem; 
+    text-align: center;
+}
+
+#nextStepButton{
+    color: white;
+    background-color: #1D1D1D;
+    border-radius: 8px;
+}

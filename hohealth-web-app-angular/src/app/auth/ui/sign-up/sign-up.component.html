@@ -1,0 +1,20 @@
+<nz-layout id="row">
+    <nz-header>
+        <div class="app-header" align="center">
+            <h3 id="headerHeading">Ho Healthcare</h3>
+            <!-- <span>BETA</span> -->
+        </div>
+    </nz-header>
+
+    <div nz-row id="row">
+        <nz-card>
+            <p id="cardPara1">Sign Up</p>
+            <!-- <p id="cardPara2">One last step...</p> -->
+            <p>Full Name</p>
+            <input nz-input placeholder="Full Name" [(ngModel)]="name" />
+            <p>Phone Number</p>
+            <input nz-input placeholder="Phone Number" [(ngModel)]="mobile" />
+            <button  nz-button nzType="default" nzBlock (click)="signUp()">Sign Up</button>
+          </nz-card>
+    </div>
+</nz-layout>
